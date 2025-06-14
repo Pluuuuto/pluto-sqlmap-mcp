@@ -1,5 +1,5 @@
 {
-  "name": "sqlmap-mcp",
+  "name": "pluto-sqlmap-mcp",
   "version": "1.0.0",
   "main": "build/index.js",
   "type": "module",
