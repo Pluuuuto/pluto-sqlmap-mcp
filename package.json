@@ -1,16 +1,19 @@
 {
   "name": "pluto-sqlmap-mcp",
-  "version": "1.0.0",
-  "main": "build/index.js",
+  "version": "1.0.4",
+  "description": "基于 MCP 协议封装的 sqlmap SQL 注入检测工具",
   "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "pluto-sqlmap-mcp": "build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js"
   },
   "keywords": ["sqlmap", "mcp", "security", "sql injection"],
-  "author": "你的名字",
+  "author": "Pluto",
   "license": "MIT",
-  "description": "基于 MCP 协议封装的 sqlmap SQL 注入检测工具",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
     "zod": "^3.24.2"
